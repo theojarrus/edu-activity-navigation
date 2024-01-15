@@ -11,20 +11,37 @@
     <EditText
         android:id="@+id/field"
         android:layout_width="200dp"
-        android:maxLines="1"
-        android:inputType="text"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/something"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:maxLines="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/open"
+        android:id="@+id/openActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/open" />
+        android:text="@string/open_activity" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/openCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/open_camera" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/chooseFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/choose_file" />
 
 </LinearLayout>

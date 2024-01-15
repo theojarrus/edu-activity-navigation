@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">ActivityNavigation</string>
     <string name="save">Save</string>
-    <string name="open">Open</string>
+    <string name="open_activity">Open activity</string>
+    <string name="open_camera">Open camera</string>
+    <string name="choose_file">Choose file</string>
+    <string name="something">Something...</string>
 </resources>
